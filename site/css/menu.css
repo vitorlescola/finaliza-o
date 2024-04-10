@@ -28,6 +28,8 @@ body{
 
 .p-intro{
   font-size: large;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  border-radius: 30%;
 }
 #projeto{
   border-radius: 20px;

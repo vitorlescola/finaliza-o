@@ -71,7 +71,7 @@ class CollapsibleTimeline {
 	}
 }
 
-document.getElementById('formulario').addEventListener('submit', function(event) {
+document.getElementsByClassName('formulario').addEventListener('submit', function(event) {
     event.preventDefault(); 
 
     var nome = document.getElementById('nome').value;
