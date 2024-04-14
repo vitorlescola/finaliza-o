@@ -215,10 +215,25 @@
         </div>
     <div>
         <h1>Quiz</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi sed eius eaque unde delectus vel modi porro voluptates. Fuga nam quod earum perspiciatis natus quo aperiam dolorum a neque dolores.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repellat iste sint repellendus? Necessitatibus maxime ratione beatae. Minima deserunt et aliquid excepturi, quod fugit dolorem pariatur tenetur doloribus voluptates libero?
-        </p>
+        <p id="intro">Nesse quiz você poderar responder algumas perguntas básicas e no final você receberá uma resposta que dirá qual é o melhor tipo de investimento para você.</p>
     </div>
+    <h1></h1>
+    <div id="quiz">
+        <div class="question">1. Você quer um investimento de longo ou curto prazo?</div>
+        <ul class="options">
+            <li><input type="radio" name="q1" value="a"> Curto</li>
+            <li><input type="radio" name="q1" value="b"> Longo</li>
+            <li><input type="radio" name="q1" value="c"> Estou Indeciso</li>
+        </ul>
+        <div class="question">2. Você quer um investimento de custo alto ou baixo?</div>
+        <ul class="options">
+            <li><input type="radio" name="q2" value="a"> Baixo</li>
+            <li><input type="radio" name="q2" value="b"> Alto</li>
+            <li><input type="radio" name="q2" value="c"> Estou Indeciso</li>
+        </ul>
+        <button onclick="submitQuiz()">Submit</button>
+    </div>
+    <div id="result"></div>
 </body>
 <script src="js/financeiro.js"></script>
 </html>
