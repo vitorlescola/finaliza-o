@@ -222,5 +222,33 @@ button:hover.quiz{
 #result{
 	text-align: center;
 	margin-top: 20px;
-	color: #21e6ec;
+	color: black;
+}
+.aaa{
+	background-color: gray;
+}
+.retorno{
+    word-spacing: 20px;
+}
+#calculadora2{
+    background-color: lightgray;
+    max-width: 640px;
+    margin: 50px auto;
+    height: 260px;
+    border-radius: 20px;
+    padding: 20px 60px 60px 80px;
+    margin-top: 5px;
+	margin-top: -40px;
+}
+.calc-p{
+    color:black;
+    font-size: 25px;
+}
+.bbb{
+	margin-top: 10px;
+    padding: 5px;
+	background-color: grey;
+}
+button {
+    cursor: pointer;
 }

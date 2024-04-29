@@ -327,3 +327,14 @@ h1 {
     opacity: 0;
   }
 }
+.vv{
+	text-align: center;
+	margin-top: -60px;
+}
+iframe{
+	display: block;
+    margin: 0 auto;
+}
+.retorno{
+    word-spacing: 20px;
+}

@@ -13,6 +13,7 @@
         <h3>Começe a aprender sobre investimentos</h3>
             </div>
         </header>
+        <p class="retorno"><a href="index.html">Menu</a> <a href="projeto-de-vida.html">Projeto_de_vida</a> <a href="financeiro.html">mundo_dos_investimentos</a></p>
         <div id="intro">
             <p>Aprenda sobre o mundo dos negócios, como investir, poupanças, tipos de investimentos, tipos de cartão de credito, tesouro direto, taxa Selic, cashback, milhas, programas de fidelidade entre outras coisas sobre finanças. </p>
         </div>
@@ -44,8 +45,20 @@
                         <p class="timeline__item-p">O cashback, como o próprio nome indica, é quando você ganha um pouco do dinheiro que você gastou em uma compra online de volta, sendo como dinheiro ou crédito para compra de outros produtos. Se ficou interessado, leia os tópicos abaixo que explicam como o cashback funciona e onde ele é utilizado. <br><br>
                             <strong>Tipos de cashback:</strong> Existem vários tipos de cashback, alguns vão permitir que você receba o dinheiro de volta na sua conta, já outros vão te dar "créditos" que poderão ser usados para pagar o valor de futuras compras. É importante ficar atendo ao tipo de cashback que a empresa que você deseja realizar a suas compras online usam.<br><br>
                             <strong>Como funciona o cashback:</strong> É importante ficar atento ao fato de que cada empresa faz o cashback de uma maneira, mas, normalmente a devolução do dinheiro é calculada sobre uma porcentagem que varia de empresa para empresa. Algumas ofertam 0,5% ou até 100% do seu dinheiro de volta. Tudo depende do site que disponibiliza esse serviço, das lojas parceiras e de quais produtos foram selecionados.<br><br>
-                        <strong>Quais são os sites que utilizam cashback:</strong> Alguns dos sites que são destaque no cashback são: <br>Méliuz;<br>Beblue;<br>Ame Digital;<br>My World;<br>Mooba.<br>Além delas, PagBank, PicPay e Banco Inter, instituições financeiras, incorporaram o cashback ao seu leque de serviços.
-                            </p>
+                        <strong>Quais são os sites que utilizam cashback:</strong> Alguns dos sites que são destaque no cashback são: <br>Méliuz;<br>Beblue;<br>Ame Digital;<br>My World;<br>Mooba.<br>Além delas, PagBank, PicPay e Banco Inter, instituições financeiras, incorporaram o cashback ao seu leque de serviços.</p>
+                        <h1 id="calculadora">Calculadora</h1>
+                        <div id="calculadora2">
+                        <div>
+                            <label for="quantidade"><p class="calc-p">Insira um valor:</p></label>
+                            <input type="number" id="quantidade" placeholder="Valor">
+                        </div>
+                        <div>
+                            <label for="porcentagem"><p class="calc-p">Insira uma porcentagem:</p></label>
+                            <input type="number" id="porcentagem" placeholder="Porcentagem">
+                        </div>
+                        <button onclick="calculateCashback()" class="bbb">Calcular</button>
+                        <div id="result"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -210,8 +223,28 @@
                         <p class="timeline__item-p"><a href="https://economia.uol.com.br/guia-de-economia/cachback-o-que-e-como-funciona-vale-a-pena-e-mais.htm">https://economia.uol.com.br/guia-de-economia/cachback-o-que-e-como-funciona-vale-a-pena-e-mais.htm</a><br><br><a href="https://www.caixa.gov.br/voce/cartoes/credito/nacional/Paginas/default.aspx">https://www.caixa.gov.br/voce/cartoes/credito/nacional/Paginas/default.aspx</a><br><br><a href="https://www.caixa.gov.br/voce/poupanca-e-investimentos/poupanca/Paginas/default.aspx">https://www.caixa.gov.br/voce/poupanca-e-investimentos/poupanca/Paginas/default.aspx</a><br><br><a href="https://www.bcb.gov.br/controleinflacao/taxaselic">https://www.bcb.gov.br/controleinflacao/taxaselic</a><br><br><a href="https://www.bb.com.br/site/investimentos/poupanca/">https://www.bb.com.br/site/investimentos/poupanca/</a><br><br><a href="https://blog.nubank.com.br/taxa-selic/">https://blog.nubank.com.br/taxa-selic/</a><br><br><a href="https://www.bb.com.br/site/investimentos/lci/">https://www.bb.com.br/site/investimentos/lci/</a><br><br><a href="https://www.caixa.gov.br/voce/poupanca-e-investimentos/letras-credito-imobiliario/Paginas/default.aspx">https://www.caixa.gov.br/voce/poupanca-e-investimentos/letras-credito-imobiliario/Paginas/default.aspx</a><br><br><a href="https://www.sicredi.com.br/site/blog/investimentos/lci-lca-descubra-diferencas/">https://www.sicredi.com.br/site/blog/investimentos/lci-lca-descubra-diferencas/</a><br><br><a href="https://www.nuinvest.com.br/investir-lci-e-lca.html">https://www.nuinvest.com.br/investir-lci-e-lca.html</a><br><br><a href="https://www.tesourodireto.com.br/">https://www.tesourodireto.com.br/</a></p>
                     </div>
                 </div>
-                
             </div>
+            <div class="timeline__item">
+                <div class="timeline__item-header">
+                    <button class="timeline__arrow" type="button" id="item9" aria-labelledby="item9-name" aria-expanded="false" aria-controls="item9-ctrld" aria-haspopup="true" data-item="9">
+                        <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                            <use href="#arrow" />
+                        </svg>
+                    </button>
+                    <span class="timeline__dot"></span>
+                    <span id="item6-name" class="timeline__meta">
+                        <strong class="timeline__title">Para aprender mais</strong>
+                    </span>
+                </div>
+                <div class="timeline__item-body" id="item9-ctrld" role="region" aria-labelledby="item9" aria-hidden="true">
+                    <div class="timeline__item-body-content">
+                        <p class="timeline__item-p"><p>Se você quiser aprender ainda mais sobre o mundo dos investimentos, você pode ver essas recomendações de blogs e canais que vão aumentar ainda mais o seu conhecimento</p><br>
+                        <p><strong><a href="https://www.infomoney.com.br/" target="_blank">infomoney</a></strong>: O infomoney é um site que fala sobre investimentos, sendo um dos melhores lugares para aprender e acompanhar noticias sobre o tema. Eles também tem um <a href="https://www.youtube.com/channel/UCxm0tptjIc76-i26EKQ9NpA" target="_blank">canal no youtube</a>, uma conta no <a href="https://twitter.com/infomoney?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">twitter</a> e no <a href="https://www.instagram.com/infomoney/" target="_blank">instagram</a>.</p><br>
+                        <p><strong><a href="https://www.youtube.com/@TesouroDiretoOficial/videos" target="_blank">Canal do tesouro direto</a></strong>: Nesse canal você poderá ver uma variedade de vídeos sobre o tesouro direto.</p><br>
+                        <p><strong><a href="https://nubank.com.br/" target="_blank">Site da Nubank</a></strong>: No site da Nubank você poderá aprender sobre seus cartões de créditos e suas vantagens.</p>
+                    </div>
+                </div>
+                </div>
         </div>
     <div>
         <h1>Quiz</h1>
@@ -231,7 +264,7 @@
             <li><input type="radio" name="q2" value="b"> Alto</li>
             <li><input type="radio" name="q2" value="c"> Estou Indeciso</li>
         </ul>
-        <button onclick="submitQuiz()">Submit</button>
+        <button onclick="submitQuiz()" class="aaa">Enviar</button>
     </div>
     <div id="result"></div>
 </body>
