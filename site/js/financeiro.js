@@ -70,7 +70,7 @@ class CollapsibleTimeline {
 		}
 	}
 }
-function submitQuiz() {
+function submitQuiz() { //função que faz o quiz
 	const q1 = document.querySelector('input[name="q1"]:checked').value;
 	const q2 = document.querySelector('input[name="q2"]:checked').value;
 
@@ -108,9 +108,9 @@ function calculateCashback() {  //função que calcula o cashback
     var porcentagem = parseFloat(document.getElementById("porcentagem").value);
 
     if (isNaN(quantidade) || isNaN(porcentagem)) {
-        document.getElementById("result").innerHTML = "Porfavor insira valores validos.";
+        document.getElementById("resultado").innerHTML = "Porfavor insira valores validos.";
     } else {
         var cashback = (quantidade * porcentagem) / 100;
-        document.getElementById("result").innerHTML = "Cashback: R$" + cashback.toFixed(2);
+        document.getElementById("resultado").innerHTML = "Cashback: R$" + cashback.toFixed(2);
     }
 }
